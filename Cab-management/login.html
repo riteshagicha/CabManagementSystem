@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="http://localhost/StyleSheet.css" type="text/css">
+        <link rel="stylesheet" href="http://localhost/font-awesome-4.4.0/css/font-awesome.min.css">
+       <meta charset="utf-8" />
+        <title>KWICK KAR</title>
+    </head>
+    <body>
+	<div style="float:right;color:white"><h4><a href="http://localhost/login.html">Login</a>&nbsp;|<a href="http://localhost/register_form.html">New User</a>&nbsp;</h4></div>
+    <div id="header" style="clear:both">
+		<div id="logo"><a href="home.html"><img src="uploads/KAR_logo.png" height="100px" width="100px"></a></div>
+		<div id="title">KWICK KAR</div>
+		<div id="slogan">Hop in. Let's go!</div>
+		<div id="nav">
+		<div id="drop">
+		<ul>
+		<a href="feedback.html"><li><span class="fa fa-users"></span>&nbsp;Feedback</li></a>
+	    <a href="ratecard.html"><li><span class="fa fa-taxi"></span>&nbsp;Rate Card</a>
+		
+		</li>
+		<a href="about_us.html"><li><span class="fa fa-question"></span>&nbsp;About Us
+		<ul>
+		<a href="contact.html"><li><span class="fa fa-phone"></span>&nbsp;Contact Us</li></a>
+		<a href="about_us.html"><li><span class="fa fa-question"></span>&nbsp;Who Are We</li></a>
+		</ul>
+		</li></a>
+		<a href="home.html"><li><span class="fa fa-home"></span>Home</li></a>
+
+		</ul>
+		</div>
+		
+		</div>
+			</div>						   
+	
+	 <div class="col_2" style="height:300px;width:500px;margin-left:400px;opacity:0.9;float:left">
+		<div id="user"style="background:red;height:200px;width:200px;opacity:1;float:left;margin-left:30px;margin-top:20px"><img src="uploads/user_login.gif" vspace="20px" hspace="20px" width="100px"height="100px"><br/><h2>User Login</h2></div>
+		<div id="driver" style="background:green;height:200px;width:200px;opacity:1;float:left;margin-left:50px;margin-top:20px"><img src="uploads/driver_login.png" vspace="20px" hspace="20px" width="100px"height="100px"><br/><h2>Driver Login</h2></div>
+		</div>
+	   <div class="col_1" id="hidden" style="height:500px;display:none"></div>
+		<div id="user-login" style="clear:both;display:none">
+		<form method="post" action="book.php">
+		<h1>User Login</h1><hr>Username:<br/>
+		<input type="text" name="user" placeholder="Enter Username Here"><br/>
+		Password:<br/>
+		<input type="password" name="pass" placeholder="Enter Your Password Here"><br/>
+		Enter source:<br/>
+		<input type="text" name="src" placeholder="Enter your location here"><br/>
+		Enter Destination:<br/>
+		<input type="text" name="dest" placeholder="Enter the destination here"><br/>
+		Time:<br/>
+		<input type="time" name="time"><br/><br/>
+		<input type="submit" value="Submit">
+		</form>
+		</div>
+		<div id="driver-login" style="height:500px;clear:both;display:none">
+		<form method="post" action="ddetail.php">
+		<h1>Driver Login</h1><hr>
+		
+		Login ID:<br/>
+		<input type="text" name="login" placeholder="Enter Login ID Here"><br/>
+		Password:<br/>
+		<input type="password" name="driverpass" placeholder="Enter Your Password Here"><br/>
+		Location:<br/><input type="text" name="loc"/><br/><br/>
+		Status:<br/><select name="status" ID="status">
+		<option value="Free">Free</option>
+		<option value="Waiting">Waiting</option>
+		</select><br/><br/>
+		<input type="submit" name="submit" value="Submit"/>
+		</form>
+		</div>
+		<script type="text/javascript">
+		document.getElementById("user").onclick=function(){
+		 document.getElementById("hidden").style.display="block";
+		 document.getElementById("hidden").innerHTML=document.getElementById("user-login").innerHTML;
+		}
+		document.getElementById("driver").onclick=function(){
+		document.getElementById("hidden").style.display="block";
+		document.getElementById("hidden").innerHTML=document.getElementById("driver-login").innerHTML;
+		}
+		</script>
+<div class="footer">
+<p>&copy; KWICK KAR, INC. ALL RIGHTS RESERVED</p>
+<p style="text-align:right;margin-right:40px;margin-top:-40px;"> CONTACT US
+<br>
+<b style="font-size:30px;">Call-&nbsp;&nbsp;&nbsp;(91)9890-420-420</b><br>
+<b><a href="mailto:riteshagicha@gmail.com">
+<font color="#FFCC00">Email-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;riteshagicha@gmail.com</a></b></font>
+</p>
+</div>
+</body>
+</html>
+		

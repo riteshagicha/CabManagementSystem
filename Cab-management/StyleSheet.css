@@ -1,0 +1,306 @@
+body {
+    background-image:url("uploads/cab.jpg");
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+}
+#header
+{
+	height:100px;
+	background-color:#FFCC00;
+	margin-top:30px;	
+	position:relative;
+}
+#title{
+	float:left;
+	font-family:"Helvetica Neue","sans-serif";
+	color:black;
+	margin-left:150px;
+	margin-top:15px;
+	font-size:40px;
+}
+#slogan
+{
+  
+ float: left;
+ display:inline;
+  font-size: 20px;
+  margin-left:0px;
+  padding-top: 60px;
+
+}
+#nav{
+	padding-top:30px;
+	display:inline;
+  float:right;
+    height:auto;
+  
+
+
+}
+
+
+#drop ul {
+  display: inline;
+  margin-left: 60px;
+   padding: 12.5px 4px 20px 0px;
+  background: #fff;
+  box-shadow: 0 0 30px rgb(0, 0, 0);
+  
+  
+
+ }
+
+#drop ul li {
+  font: bold sans-serif;
+  display: inline-block;
+  font-family:"Times New Roman","Times","serif";
+  float:right;
+  font-size:25px;
+  margin-right: -4px;
+  position: relative;
+  padding: 14.5px 20px 14.5px 20px;
+  background:black;
+  color:#FFCC00;
+  cursor: pointer;
+   border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+}
+
+
+#drop ul li:hover {
+  background: #FFCC00;
+  border-style: solid;
+  border-radius: 5px; 
+  height: auto;
+  color: black;
+}
+
+a
+{
+	color:#FFCC00;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color:black;
+
+}
+
+
+#drop ul li ul {
+	padding:0px;
+	margin-left: -0px;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  z-index: 2;
+  width: 200px;
+  visibility: hidden;
+ }
+
+ #drop ul li ul li { 
+  background:black;
+  display: block; 
+  color:#FFCC00;
+   width: 200px;
+   border-style: solid;
+   border-radius:0px;
+  }
+#drop ul li ul li:hover
+ { 
+ 	background:#FFCC00;
+ 	color: black;
+ 	width: 200px;
+  	border-style: inset;
+       border-style: solid;
+   border-radius:0px;
+
+}
+
+#drop ul li:hover ul
+ {
+  
+  visibility: visible;
+}
+
+#logo{
+	margin-left:10px;
+	width:20px;
+	float:left;
+}
+.col_0{width:900px;
+              margin:30px 50px 0px 150px;
+              background:black;
+             height:150px;
+             clear:both;
+            color:white;
+			 opacity:0.95;
+              padding:30px;
+              
+}
+.col_1{
+	
+	width:500px;
+	margin:30px 50px 0px 150px ;
+	height:500px;
+	clear:both;
+	background:black;
+	color: white;                                             /*#85E0FF*/
+	padding:30px;
+	font-size:25px;
+	opacity:0.8;
+	position:relative;
+}
+img{
+ opacity:1;
+
+}
+.col_3{
+	float:left;
+	margin:30px 30px 30px 40px ;
+	width:300px;
+	height:300px;
+	opacity:0.8;
+	background:black;
+	color:#FFCC00;
+	padding:10px 10px 10px 10px;
+	position:relative;
+	
+}
+.col_2{
+	float:left;
+	margin:30px 30px 30px 150px;
+	width:350px;
+	height:350px;
+	opacity:0.8;
+	padding-left:20px;
+    background:black;
+	color:  #3399FF;               /*#3399FF*/
+	position:relative;
+	
+}
+
+#button:hover
+{
+  border-style: outset;
+  float: left;
+}
+div.footer {
+float:below;
+clear:both;
+background:black;
+color:  #FFCC00; 
+width: 100%px;
+opacity:0.8;
+height: auto;
+border: 3px solid black;
+margin-top: 30px;
+font-size: 20px;
+
+}
+td, th, table  {
+    padding: 15px;
+color:white;
+border: 1px   solid white;
+
+}
+.col_4{
+	
+	width:900px;
+	margin:30px 50px 0px 150px ;
+	height:910px;
+	clear:both;
+	background:black;
+	color: white;                                             /*#85E0FF*/
+	padding:30px;
+	font-size:25px;
+	opacity:0.8;
+	position:relative;
+}
+
+/*blueberry*/
+.blueberry { margin: 0 auto; }
+.blueberry .slides {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.blueberry .slides li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.blueberry .slides li img {
+	display: block;
+	width: 100%;
+	max-width: none;
+}
+.blueberry .slides li.active { display: block; position: relative; }
+.blueberry .crop li img { width: auto; }
+
+.blueberry .pager {
+	height: 40px;
+	text-align: center;
+}
+.blueberry .pager li { display: inline-block; }
+.blueberry .pager li a,
+.blueberry .pager li a span {
+	display: block;
+	height: 4px;
+	width: 4px;
+}
+.blueberry .pager li a {
+	padding: 18px 8px;
+-webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.blueberry .pager li a span {
+	overflow: hidden;
+	background: #c0c0c0;
+	text-indent: -9999px;
+-webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.blueberry .pager li.active a span { background: #404040; }
+
+
+#doc{
+//margin:40px 0;}
+
+#content{
+margin: 0 auto;
+max-width:1140px;
+}
+
+.blueberry{
+max-width:960px;
+height: auto;}
+
+
+.slides img
+{
+	opacity: 0.9;
+}
+	
+ul,ul.social{
+	list-style:none;
+	}
+	
+nav ul li{
+	display:inline;
+	float: left;
+	padding: 5px;}
+
+
+ul.social li{
+	display: inline;}
+
+
+
+

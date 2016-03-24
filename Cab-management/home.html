@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<link rel="stylesheet" href="StyleSheet.css" type="text/css">
+        
+        <link rel="stylesheet" href="http://localhost/font-awesome-4.4.0/css/font-awesome.min.css">
+       <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KWICK KAR</title>
+
+    </head>
+    <body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="jquery.blueberry.js"></script>
+
+<script>
+ var image =  ["uploads/image(i).gif","uploads/image(ii).gif","uploads/image(iii).gif"];
+var i=0;
+ var renew=setInterval(function(){
+if(image.length== i){
+i=0;}
+else{
+document.getElementById("ad").src= image[i];
+i++;}
+},10000);
+</script>
+
+<script>
+$(window).load(function(){
+	$('.blueberry').blueberry();
+	})
+</script>
+
+<div style="float:right;color:white"><h4><a href="http://localhost/login.html">Login</a>&nbsp;|<a href="http://localhost/register_form.html">New User</a>&nbsp;</h4></div>
+    <div id="header" style="clear:both">
+		<div id="logo"><a href="home.html"><img src="uploads/KAR_logo.png" height="100px" width="100px"></a></div>
+		<div id="title">KWICK KAR</div>
+		<div id="slogan">Hop in. Let's go!</div>
+	<div id="nav">
+		
+
+		<div id="drop">
+		<ul>
+		<a href="feedback.html"><li><span class="fa fa-users"></span>&nbsp;Feedback</li></a>
+	    <a href="ratecard.html"><li><span class="fa fa-inr"></span>&nbsp;Rate Card</a>
+		</li>
+		<a href="about_us.html"><li><span class="fa fa-question"></span>&nbsp;About Us
+		<ul>
+		<a href="contact.html"><li><span class="fa fa-phone"></span>&nbsp;Contact Us</li></a>
+		<a href="about_us.html"><li><span class="fa fa-question"></span>&nbsp;Who Are We</li></a>
+		</ul>
+		</li></a>
+		<a href="home.html"><li><span class="fa fa-home"></span>Home</li></a>
+                                    
+                                    
+		</ul>
+		</div>
+
+	</div>
+		
+	</div>
+	<div class="col_0">
+                                          <img id="ad" src="uploads/image(i).gif" style="width:900px; height:150px;" alt="text"/>
+                                       <img>
+                                       </div>
+
+
+    <div id="doc">
+		<div id="content">
+			<div class="blueberry">
+			
+				<ul class="slides" style="height:800px;width:800px">
+				<li><img src="uploads/2.jpg" style="opacity:1"><span><h1 style="background:black;opacity:0.8;margin-left:10px;width:600px;height:150px;padding-left:10px;font:bold 24px/45px Helvetica, Sans-Serif;position:absolute;color:#FFCC00;top:10px">Welcome to KWICK KAR!<br/>From Kaali Peelis to Sedans!<a style="text-decoration:none;color:white"href="http://localhost/ratecard.html">Click Here to Know More!</a></h1></span></li>
+					<li><img src="uploads/3.jpg"><span><h1 style="margin-left:80px;height:100px;width:600px;background:black;opacity:0.8;padding-left:10px;font:bold Helvetica, Sans-Serif;position:absolute;color:#FFCC00;top:10px"> So Sit Back and enjoy your chauffer driven car. We look forward to serve you!</h2></span></li>
+					<li><img src="uploads/1.jpg"></li>
+					
+				</ul>	
+			
+			</div>
+		</div>
+	</div>
+		
+		
+
+
+		<div class="col_2"> <h1>Register</h1><br/>
+		If you aren't registered with us,do so now! Click on the link below and register.<br/><br/><br/>
+		<div id="button">
+		<a target="_blank" href="register_form.html"><input type="image" src="uploads/register_button.jpg" value="Register" width="200" height="50"></a>
+		</div></div>
+		
+		<div class="col_2"><h1>Login</h1><br/>
+		If you are a registered cutomer,then login to our portal from the link below!<br/><br/><br/>
+		<div id="button"><a href="login.html"><input type="image" src="uploads/login_button.jpg" name="Login" value="Login" width="200" height="50"></a> </div></div>
+		
+<div class="footer">
+<p>&copy; KWICK KAR, INC. ALL RIGHTS RESERVED</p>
+<p style="text-align:right;margin-right:40px;margin-top:-40px;"> CONTACT US
+<br>
+<b style="font-size:30px;">Call-&nbsp;&nbsp;&nbsp;(91)9890-420-420</b><br>
+<b><a href="mailto:riteshagicha@gmail.com">
+<font color="#FFCC00">Email-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;riteshagicha@gmail.com</a></b></font>
+</p>
+</div>
+</body>
+</html>
